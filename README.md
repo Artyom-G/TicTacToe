@@ -8,7 +8,7 @@ The hosted game can be found at [https://tictactoe.artyomg.com](https://tictacto
 
 This is a repository for a simple TicTacToe React app.
 
-Make sure you have Node.js and npm installed
+Make sure you have Node.js, npm and Git installed.
 
 # Cloning the repo
 
