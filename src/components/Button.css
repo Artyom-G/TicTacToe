@@ -33,11 +33,13 @@
 .grid-button-X-X {
     background-color: #9e9ec5;
     border-color: blue;
+    color: blue;
 }
 
 .grid-button-O-O {
     background-color: #b48c8c;
     border-color: red;
+    color: red;
 }
 
 .grid-button:disabled {
