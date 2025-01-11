@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg");
+  backdrop-filter: blur(10px) brightness(0.9);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
