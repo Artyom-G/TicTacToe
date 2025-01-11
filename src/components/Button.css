@@ -13,7 +13,7 @@
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-.grid-button-empty:hover {
+.grid-button-empty:enabled:hover {
     background-color: #c6c7cc;
     border-color: #9a9aa7;
 }
@@ -43,7 +43,5 @@
 }
 
 .grid-button:disabled {
-    background-color: #ddd;
-    cursor: not-allowed;
-    color: #666;
+    cursor: default;
 }
