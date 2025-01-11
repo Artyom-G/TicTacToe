@@ -2,7 +2,7 @@
 
 This repository is made for an application to a Junior Developer at Tuq
 
-The hosted game can be found at [tictactoe.artyomg.com](https://tictactoe.artyomg.com)
+The hosted game can be found at [https://tictactoe.artyomg.com](https://tictactoe.artyomg.com)
 
 # TicTacToe
 
