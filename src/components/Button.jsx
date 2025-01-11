@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Button.css";
 
-const Button = ({ symbol, row, column, makeMove }) => {
+const Button = ({ symbol, row, column, makeMove, isWinningCell }) => {
     return(
-        <button className={`grid-button ${symbol!==" " ? `grid-button-${symbol}` : 'grid-button-inactive'}`}  onClick={() => { makeMove(row, column); }}>
+        <button className={`grid-button ${symbol!==" " ? `grid-button-${symbol}` : ''} grid-button-${symbol}-${isWinningCell}`}  onClick={() => { makeMove(row, column); }}>
             <span>{symbol}</span>
         </button>
     );
